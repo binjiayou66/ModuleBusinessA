@@ -1,0 +1,10 @@
+# 官方仓库地址
+source 'https://github.com/CocoaPods/Specs.git'
+# 私有库地址
+source 'https://github.com/binjiayou66/ADSpecs.git'
+
+platform :ios, '8.0'
+
+target 'ModuleBusinessA' do 
+	pod 'ModuleBaseA', '~> 0.0.1'
+end
